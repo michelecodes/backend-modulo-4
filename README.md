@@ -19,28 +19,8 @@ Abra o VS Code e vá para a Visual Studio Code Marketplace. Procure por "Java Ex
 4. Crie um Novo Projeto Java:
 Abra o VS Code e crie um novo diretório para o seu projeto. Em seguida, abra o terminal no VS Code (Ctrl + `) e navegue até o diretório do seu projeto.
 
-5. Inicialize um Projeto Java com Maven (opcional):
-Se você deseja usar o Maven para gerenciar as dependências do seu projeto, você pode inicializar um projeto Maven. No terminal, execute o seguinte comando:
+5. Crie uma Classe Java:
+Dentro do diretório do seu projeto, crie uma pasta e, dentro dessa pasta, crie sua primeira classe Java.
 
-bash
-Copy code
-mvn archetype:generate -DgroupId=com.example -DartifactId=myproject -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
-Isso criará uma estrutura básica de projeto Maven.
-
-6. Crie uma Classe Java:
-Dentro do diretório do seu projeto, crie uma pasta chamada src/main/java/com/example (ou a estrutura equivalente, dependendo do seu groupId e artifactId) e, dentro dessa pasta, crie sua primeira classe Java. Por exemplo, crie um arquivo chamado MyClass.java:
-
-java
-Copy code
-package com.example;
-
-public class MyClass {
-    public static void main(String[] args) {
-        System.out.println("Hello, World!");
-    }
-}
 7. Execute a Classe Java:
 Abra o arquivo MyClass.java no VS Code e clique com o botão direito no código-fonte. Selecione "Run Java" para executar a classe.
-
-
-# Exercício Java
